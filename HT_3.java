@@ -12,7 +12,6 @@ public class HT_3 {
         if (count == 1) {
             System.out.println(String.format("Переставляем из %s в %s", a, b));
             return;
-            // При последнем кольце - переносим на итоговое место
         } else {
             replaceRings(a, c, b, count - 1);
             System.out.println(String.format("Переставляем из %s в %s", a, b));
